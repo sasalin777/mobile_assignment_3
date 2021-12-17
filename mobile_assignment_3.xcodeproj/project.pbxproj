@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7063AE1276C0BE2005E3174 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AE0276C0BE2005E3174 /* LibraryViewController.swift */; };
+		F7063AE3276C0D3F005E3174 /* DiningroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AE2276C0D3F005E3174 /* DiningroomViewController.swift */; };
 		F7B6B621276B011F002508FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6B620276B011F002508FB /* AppDelegate.swift */; };
 		F7B6B623276B011F002508FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6B622276B011F002508FB /* SceneDelegate.swift */; };
 		F7B6B625276B011F002508FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6B624276B011F002508FB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7063AE0276C0BE2005E3174 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		F7063AE2276C0D3F005E3174 /* DiningroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningroomViewController.swift; sourceTree = "<group>"; };
 		F7B6B61D276B011F002508FB /* mobile_assignment_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile_assignment_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B6B620276B011F002508FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7B6B622276B011F002508FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				F7B6B629276B0120002508FB /* Assets.xcassets */,
 				F7B6B62B276B0120002508FB /* LaunchScreen.storyboard */,
 				F7B6B62E276B0120002508FB /* Info.plist */,
+				F7063AE0276C0BE2005E3174 /* LibraryViewController.swift */,
+				F7063AE2276C0D3F005E3174 /* DiningroomViewController.swift */,
 			);
 			path = mobile_assignment_3;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				F7B6B625276B011F002508FB /* ViewController.swift in Sources */,
 				F7B6B621276B011F002508FB /* AppDelegate.swift in Sources */,
+				F7063AE1276C0BE2005E3174 /* LibraryViewController.swift in Sources */,
+				F7063AE3276C0D3F005E3174 /* DiningroomViewController.swift in Sources */,
 				F7B6B623276B011F002508FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

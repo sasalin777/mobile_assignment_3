@@ -148,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="832.71028037383178" y="81.641468682505405"/>
         </scene>
-        <!--View Controller-->
+        <!--Library-->
         <scene sceneID="vBP-eC-4xf">
             <objects>
-                <viewController id="M6V-VE-bz1" sceneMemberID="viewController">
+                <viewController id="M6V-VE-bz1" customClass="LibraryViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IUl-At-Huc">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -197,7 +197,13 @@
                             <constraint firstItem="qDS-d0-tFV" firstAttribute="height" secondItem="IUl-At-Huc" secondAttribute="height" multiplier="0.58" id="zzh-V4-kgN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="gib-QX-Zho"/>
+                    <navigationItem key="navigationItem" title="Library" id="gib-QX-Zho">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="1C8-sL-e8i">
+                            <connections>
+                                <action selector="goBack:" destination="M6V-VE-bz1" id="fUW-Ob-1Zm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1F-xk-chM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -381,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="2835" y="763"/>
         </scene>
-        <!--View Controller-->
+        <!--Dining room-->
         <scene sceneID="OY9-Y8-13B">
             <objects>
-                <viewController id="0FF-Os-yf4" sceneMemberID="viewController">
+                <viewController id="0FF-Os-yf4" customClass="DiningroomViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CNV-ps-sxH">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -429,7 +435,13 @@
                             <constraint firstItem="urf-sp-pzj" firstAttribute="top" secondItem="8m8-Rs-twF" secondAttribute="bottom" constant="50" id="ypT-8H-hjv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="nj1-aW-cAv"/>
+                    <navigationItem key="navigationItem" title="Dining room" id="nj1-aW-cAv">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="uT4-c0-15d">
+                            <connections>
+                                <action selector="goBack:" destination="0FF-Os-yf4" id="jPY-ys-cwQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4R9-NV-zex" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
