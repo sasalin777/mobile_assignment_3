@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		F7063AE1276C0BE2005E3174 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AE0276C0BE2005E3174 /* LibraryViewController.swift */; };
 		F7063AE3276C0D3F005E3174 /* DiningroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AE2276C0D3F005E3174 /* DiningroomViewController.swift */; };
+		F7063AE5276C2837005E3174 /* BedroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AE4276C2837005E3174 /* BedroomViewController.swift */; };
+		F7063AE7276C2B66005E3174 /* StairsupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AE6276C2B66005E3174 /* StairsupViewController.swift */; };
+		F7063AE9276C2F4D005E3174 /* SecretpassageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AE8276C2F4D005E3174 /* SecretpassageViewController.swift */; };
+		F7063AEB276C3044005E3174 /* KitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AEA276C3044005E3174 /* KitchenViewController.swift */; };
+		F7063AED276C3107005E3174 /* BackporchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AEC276C3107005E3174 /* BackporchViewController.swift */; };
+		F7063AEF276C319B005E3174 /* BathroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AEE276C319B005E3174 /* BathroomViewController.swift */; };
+		F7063AF1276C3405005E3174 /* DungeonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AF0276C3405005E3174 /* DungeonViewController.swift */; };
+		F7063AF3276C3506005E3174 /* LabratoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AF2276C3506005E3174 /* LabratoryViewController.swift */; };
+		F7063AF5276C35B1005E3174 /* MysteriouslakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AF4276C35B1005E3174 /* MysteriouslakeViewController.swift */; };
+		F7063AF7276C3668005E3174 /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AF6276C3668005E3174 /* GeneratorViewController.swift */; };
+		F7063AF9276C3707005E3174 /* GursedchaliceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AF8276C3707005E3174 /* GursedchaliceViewController.swift */; };
+		F7063AFB276C38E0005E3174 /* CoatroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7063AFA276C38E0005E3174 /* CoatroomViewController.swift */; };
 		F7B6B621276B011F002508FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6B620276B011F002508FB /* AppDelegate.swift */; };
 		F7B6B623276B011F002508FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6B622276B011F002508FB /* SceneDelegate.swift */; };
 		F7B6B625276B011F002508FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6B624276B011F002508FB /* ViewController.swift */; };
@@ -20,6 +32,18 @@
 /* Begin PBXFileReference section */
 		F7063AE0276C0BE2005E3174 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		F7063AE2276C0D3F005E3174 /* DiningroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningroomViewController.swift; sourceTree = "<group>"; };
+		F7063AE4276C2837005E3174 /* BedroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedroomViewController.swift; sourceTree = "<group>"; };
+		F7063AE6276C2B66005E3174 /* StairsupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StairsupViewController.swift; sourceTree = "<group>"; };
+		F7063AE8276C2F4D005E3174 /* SecretpassageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretpassageViewController.swift; sourceTree = "<group>"; };
+		F7063AEA276C3044005E3174 /* KitchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewController.swift; sourceTree = "<group>"; };
+		F7063AEC276C3107005E3174 /* BackporchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackporchViewController.swift; sourceTree = "<group>"; };
+		F7063AEE276C319B005E3174 /* BathroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathroomViewController.swift; sourceTree = "<group>"; };
+		F7063AF0276C3405005E3174 /* DungeonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonViewController.swift; sourceTree = "<group>"; };
+		F7063AF2276C3506005E3174 /* LabratoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabratoryViewController.swift; sourceTree = "<group>"; };
+		F7063AF4276C35B1005E3174 /* MysteriouslakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysteriouslakeViewController.swift; sourceTree = "<group>"; };
+		F7063AF6276C3668005E3174 /* GeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
+		F7063AF8276C3707005E3174 /* GursedchaliceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GursedchaliceViewController.swift; sourceTree = "<group>"; };
+		F7063AFA276C38E0005E3174 /* CoatroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoatroomViewController.swift; sourceTree = "<group>"; };
 		F7B6B61D276B011F002508FB /* mobile_assignment_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobile_assignment_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B6B620276B011F002508FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7B6B622276B011F002508FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +93,18 @@
 				F7B6B62E276B0120002508FB /* Info.plist */,
 				F7063AE0276C0BE2005E3174 /* LibraryViewController.swift */,
 				F7063AE2276C0D3F005E3174 /* DiningroomViewController.swift */,
+				F7063AE4276C2837005E3174 /* BedroomViewController.swift */,
+				F7063AE6276C2B66005E3174 /* StairsupViewController.swift */,
+				F7063AE8276C2F4D005E3174 /* SecretpassageViewController.swift */,
+				F7063AEA276C3044005E3174 /* KitchenViewController.swift */,
+				F7063AEC276C3107005E3174 /* BackporchViewController.swift */,
+				F7063AEE276C319B005E3174 /* BathroomViewController.swift */,
+				F7063AF0276C3405005E3174 /* DungeonViewController.swift */,
+				F7063AF2276C3506005E3174 /* LabratoryViewController.swift */,
+				F7063AF4276C35B1005E3174 /* MysteriouslakeViewController.swift */,
+				F7063AF6276C3668005E3174 /* GeneratorViewController.swift */,
+				F7063AF8276C3707005E3174 /* GursedchaliceViewController.swift */,
+				F7063AFA276C38E0005E3174 /* CoatroomViewController.swift */,
 			);
 			path = mobile_assignment_3;
 			sourceTree = "<group>";
@@ -144,11 +180,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7063AED276C3107005E3174 /* BackporchViewController.swift in Sources */,
+				F7063AFB276C38E0005E3174 /* CoatroomViewController.swift in Sources */,
+				F7063AF7276C3668005E3174 /* GeneratorViewController.swift in Sources */,
+				F7063AF1276C3405005E3174 /* DungeonViewController.swift in Sources */,
 				F7B6B625276B011F002508FB /* ViewController.swift in Sources */,
 				F7B6B621276B011F002508FB /* AppDelegate.swift in Sources */,
 				F7063AE1276C0BE2005E3174 /* LibraryViewController.swift in Sources */,
+				F7063AF3276C3506005E3174 /* LabratoryViewController.swift in Sources */,
+				F7063AEF276C319B005E3174 /* BathroomViewController.swift in Sources */,
+				F7063AEB276C3044005E3174 /* KitchenViewController.swift in Sources */,
 				F7063AE3276C0D3F005E3174 /* DiningroomViewController.swift in Sources */,
+				F7063AF9276C3707005E3174 /* GursedchaliceViewController.swift in Sources */,
 				F7B6B623276B011F002508FB /* SceneDelegate.swift in Sources */,
+				F7063AE5276C2837005E3174 /* BedroomViewController.swift in Sources */,
+				F7063AF5276C35B1005E3174 /* MysteriouslakeViewController.swift in Sources */,
+				F7063AE7276C2B66005E3174 /* StairsupViewController.swift in Sources */,
+				F7063AE9276C2F4D005E3174 /* SecretpassageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

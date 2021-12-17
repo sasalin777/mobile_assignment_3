@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="169.62616822429905" y="81.641468682505405"/>
         </scene>
-        <!--View Controller-->
+        <!--Coat room-->
         <scene sceneID="gOf-VP-x5u">
             <objects>
-                <viewController id="rbj-eA-Ny5" sceneMemberID="viewController">
+                <viewController id="rbj-eA-Ny5" customClass="CoatroomViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qL1-tg-3TR">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,7 +142,7 @@
                             <constraint firstItem="4X0-OT-zyx" firstAttribute="centerX" secondItem="V15-nU-wuP" secondAttribute="centerX" id="wDe-XG-pEH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="wog-hT-J3L"/>
+                    <navigationItem key="navigationItem" title="Coat room" id="wog-hT-J3L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpC-y8-q2P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -209,10 +209,10 @@
             </objects>
             <point key="canvasLocation" x="1490" y="82"/>
         </scene>
-        <!--View Controller-->
+        <!--Secret passage-->
         <scene sceneID="8Wd-3c-Hor">
             <objects>
-                <viewController id="s1x-jo-zBR" sceneMemberID="viewController">
+                <viewController id="s1x-jo-zBR" customClass="SecretpassageViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lh5-f8-jyB">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -288,16 +288,22 @@
                             <constraint firstItem="ILN-Eb-e0V" firstAttribute="height" secondItem="lh5-f8-jyB" secondAttribute="height" multiplier="0.58" id="ue0-Ca-emB"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="xTd-a7-3ZY"/>
+                    <navigationItem key="navigationItem" title="Secret passage" id="xTd-a7-3ZY">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="zFr-GE-J14">
+                            <connections>
+                                <action selector="goBack:" destination="s1x-jo-zBR" id="Tty-k8-9U5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bbp-1N-fKw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1489" y="763"/>
         </scene>
-        <!--View Controller-->
+        <!--Kitchen-->
         <scene sceneID="QGX-HQ-m8g">
             <objects>
-                <viewController id="jgd-hx-jP3" sceneMemberID="viewController">
+                <viewController id="jgd-hx-jP3" customClass="KitchenViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CFb-63-xjE">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -342,16 +348,22 @@
                             <constraint firstItem="lM1-Fy-HZT" firstAttribute="width" secondItem="CFb-63-xjE" secondAttribute="width" multiplier="0.96135" id="rcH-yu-x2D"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="9BW-Aq-WXy"/>
+                    <navigationItem key="navigationItem" title="Kitchen" id="9BW-Aq-WXy">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="0Ux-am-y1N">
+                            <connections>
+                                <action selector="goBack:" destination="jgd-hx-jP3" id="SH9-hD-aNl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WMd-38-AoV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2169" y="763"/>
         </scene>
-        <!--View Controller-->
+        <!--Back porch-->
         <scene sceneID="8Ay-xr-YDP">
             <objects>
-                <viewController id="vOD-qD-gKi" sceneMemberID="viewController">
+                <viewController id="vOD-qD-gKi" customClass="BackporchViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2le-nM-2j3">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -381,7 +393,13 @@
                             <constraint firstItem="Wco-Re-toZ" firstAttribute="height" secondItem="2le-nM-2j3" secondAttribute="height" multiplier="0.58" id="yjw-qb-CZp"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="WM7-gB-ZTI"/>
+                    <navigationItem key="navigationItem" title="Back porch" id="WM7-gB-ZTI">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="OcA-og-5dJ">
+                            <connections>
+                                <action selector="goBack:" destination="vOD-qD-gKi" id="O0l-Kj-9As"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GcV-pL-vXP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -447,10 +465,10 @@
             </objects>
             <point key="canvasLocation" x="2169" y="82"/>
         </scene>
-        <!--View Controller-->
+        <!--Bedroom-->
         <scene sceneID="MCj-Sk-FC4">
             <objects>
-                <viewController id="2bb-Jg-DTQ" sceneMemberID="viewController">
+                <viewController id="2bb-Jg-DTQ" customClass="BedroomViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Amw-LN-YNu">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -480,16 +498,22 @@
                             <constraint firstItem="c8G-9z-qv1" firstAttribute="height" secondItem="Amw-LN-YNu" secondAttribute="height" multiplier="0.58" id="sGD-mx-7MF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="LAi-nt-kMY"/>
+                    <navigationItem key="navigationItem" title="Bedroom" id="LAi-nt-kMY">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="R09-Vh-baW">
+                            <connections>
+                                <action selector="goBack:" destination="2bb-Jg-DTQ" id="xrB-BA-4JS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khy-JU-OAl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="170" y="763"/>
         </scene>
-        <!--View Controller-->
+        <!--Bath room-->
         <scene sceneID="Aho-2x-kOx">
             <objects>
-                <viewController id="r18-Au-qoE" sceneMemberID="viewController">
+                <viewController id="r18-Au-qoE" customClass="BathroomViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4g3-vw-tBE">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -519,16 +543,22 @@
                             <constraint firstItem="baP-PM-5bA" firstAttribute="centerY" secondItem="L9y-ly-SHk" secondAttribute="centerY" id="v5w-HL-N2Z"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="h56-1h-5PH"/>
+                    <navigationItem key="navigationItem" title="Bath room" id="h56-1h-5PH">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="b8m-Qg-wWB">
+                            <connections>
+                                <action selector="goBack:" destination="r18-Au-qoE" id="ZxE-Db-68y"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f9s-vv-cds" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="170" y="1409"/>
         </scene>
-        <!--View Controller-->
+        <!--Dungeon-->
         <scene sceneID="XRa-gd-Qnw">
             <objects>
-                <viewController id="MDz-dc-mfy" sceneMemberID="viewController">
+                <viewController id="MDz-dc-mfy" customClass="DungeonViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GoF-lC-Sqq">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -558,16 +588,22 @@
                             <constraint firstItem="16c-sO-mEF" firstAttribute="centerY" secondItem="k2v-xd-yKd" secondAttribute="centerY" id="cks-m8-a5F"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="mUo-eP-ODY"/>
+                    <navigationItem key="navigationItem" title="Dungeon" id="mUo-eP-ODY">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="HaP-ZY-ATH">
+                            <connections>
+                                <action selector="goBack:" destination="MDz-dc-mfy" id="udi-jf-ujN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bnH-2q-CUA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="833" y="1409"/>
         </scene>
-        <!--View Controller-->
+        <!--Labratory-->
         <scene sceneID="P3Q-cH-1aw">
             <objects>
-                <viewController id="e64-Pm-Qae" sceneMemberID="viewController">
+                <viewController id="e64-Pm-Qae" customClass="LabratoryViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nSk-iO-HhL">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -612,16 +648,22 @@
                             <constraint firstItem="axo-MX-fUY" firstAttribute="top" secondItem="Wer-xT-gaV" secondAttribute="bottom" constant="50" id="yYs-1d-lpl"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Ul6-PP-tNT"/>
+                    <navigationItem key="navigationItem" title="Labratory" id="Ul6-PP-tNT">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="AIQ-Or-71I">
+                            <connections>
+                                <action selector="goBack:" destination="e64-Pm-Qae" id="uI3-bu-svE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzJ-nw-Ndp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1469" y="1409"/>
         </scene>
-        <!--View Controller-->
+        <!--Generator-->
         <scene sceneID="lSt-hw-QYq">
             <objects>
-                <viewController id="JnO-jg-vLO" sceneMemberID="viewController">
+                <viewController id="JnO-jg-vLO" customClass="GeneratorViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pjf-Ys-t2N">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -651,16 +693,22 @@
                             <constraint firstItem="XfS-YP-spT" firstAttribute="centerY" secondItem="lhD-7k-Dap" secondAttribute="centerY" id="e6l-oN-Hdr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="XCb-O7-D7L"/>
+                    <navigationItem key="navigationItem" title="Generator" id="XCb-O7-D7L">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="ddz-Fs-HXd">
+                            <connections>
+                                <action selector="goBack:" destination="JnO-jg-vLO" id="tNL-VV-SOd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x9d-Ua-RTk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1467.7570093457944" y="2051.4038876889849"/>
         </scene>
-        <!--View Controller-->
+        <!--Gursed chalice-->
         <scene sceneID="OAc-5T-lf2">
             <objects>
-                <viewController id="3FT-6s-a6r" sceneMemberID="viewController">
+                <viewController id="3FT-6s-a6r" customClass="GursedchaliceViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="REC-wm-lYv">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -690,16 +738,22 @@
                             <constraint firstItem="enm-pm-mbx" firstAttribute="height" secondItem="REC-wm-lYv" secondAttribute="height" multiplier="0.58" id="eIw-5q-2jF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="qwf-7f-fw5"/>
+                    <navigationItem key="navigationItem" title="Gursed chalice" id="qwf-7f-fw5">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="Zsb-bN-9SD">
+                            <connections>
+                                <action selector="goBack:" destination="3FT-6s-a6r" id="4kK-jC-kXW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tx5-AW-2Ew" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2106" y="2051"/>
         </scene>
-        <!--View Controller-->
+        <!--Mysterious Lake-->
         <scene sceneID="XII-Ar-cK5">
             <objects>
-                <viewController id="cr3-Vi-FwA" sceneMemberID="viewController">
+                <viewController id="cr3-Vi-FwA" customClass="MysteriouslakeViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G0x-UT-ety">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -744,16 +798,22 @@
                             <constraint firstItem="bLZ-gY-fuP" firstAttribute="centerX" secondItem="8gK-hv-c5h" secondAttribute="centerX" id="kMb-cr-QHH"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="vhS-kb-o6W"/>
+                    <navigationItem key="navigationItem" title="Mysterious Lake" id="vhS-kb-o6W">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="dgH-fH-n1u">
+                            <connections>
+                                <action selector="goBack:" destination="cr3-Vi-FwA" id="810-pY-6KW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DaS-qy-k0h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2105.6074766355141" y="1408.6393088552916"/>
         </scene>
-        <!--View Controller-->
+        <!--Stairs up-->
         <scene sceneID="OhI-4Q-gfi">
             <objects>
-                <viewController id="wl1-FA-DoY" sceneMemberID="viewController">
+                <viewController id="wl1-FA-DoY" customClass="StairsupViewController" customModule="mobile_assignment_3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hgb-Ih-Njw">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -814,7 +874,13 @@
                             <constraint firstItem="0ZP-S7-WHP" firstAttribute="centerX" secondItem="hgb-Ih-Njw" secondAttribute="centerX" id="xVu-NK-NSR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="prc-tN-alf"/>
+                    <navigationItem key="navigationItem" title="Stairs up" id="prc-tN-alf">
+                        <barButtonItem key="rightBarButtonItem" title="Doorway" id="bJx-b3-GWX">
+                            <connections>
+                                <action selector="goBack:" destination="wl1-FA-DoY" id="lbG-B1-LqL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ud5-ff-EfF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
